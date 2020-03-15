@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AFF2AA982414574E006D1F0E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFF2AA972414574E006D1F0E /* main.cpp */; };
+		AF5DCBCE2418CA9D009FCC85 /* StreetMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF5DCBCD2418CA9D009FCC85 /* StreetMap.cpp */; };
+		AF5DCBE3241AE246009FCC85 /* DeliveryPlanner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF5DCBE2241AE246009FCC85 /* DeliveryPlanner.cpp */; };
+		AF5DCBE6241AE43E009FCC85 /* DeliveryOptimizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF5DCBE5241AE43E009FCC85 /* DeliveryOptimizer.cpp */; };
+		AF5DCBE8241C34F7009FCC85 /* brandontester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF5DCBE7241C34F7009FCC85 /* brandontester.cpp */; };
+		AFF2AAA4241581CD006D1F0E /* PointToPointRouter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFF2AAA3241581CD006D1F0E /* PointToPointRouter.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF5DCBCD2418CA9D009FCC85 /* StreetMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StreetMap.cpp; sourceTree = "<group>"; };
+		AF5DCBE2241AE246009FCC85 /* DeliveryPlanner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DeliveryPlanner.cpp; sourceTree = "<group>"; };
+		AF5DCBE4241AE2F2009FCC85 /* deliveries.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = deliveries.txt; sourceTree = "<group>"; };
+		AF5DCBE5241AE43E009FCC85 /* DeliveryOptimizer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DeliveryOptimizer.cpp; sourceTree = "<group>"; };
+		AF5DCBE7241C34F7009FCC85 /* brandontester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = brandontester.cpp; sourceTree = "<group>"; };
 		AFF2AA942414574E006D1F0E /* Project4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project4; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFF2AA972414574E006D1F0E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AFF2AA9E2414575F006D1F0E /* ExpandableHashMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpandableHashMap.h; sourceTree = "<group>"; };
+		AFF2AAA124146CC2006D1F0E /* provided.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = provided.h; sourceTree = "<group>"; };
+		AFF2AAA22414BA6A006D1F0E /* mapdata.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = mapdata.txt; sourceTree = "<group>"; };
+		AFF2AAA3241581CD006D1F0E /* PointToPointRouter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PointToPointRouter.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +69,15 @@
 		AFF2AA962414574E006D1F0E /* Project4 */ = {
 			isa = PBXGroup;
 			children = (
-				AFF2AA972414574E006D1F0E /* main.cpp */,
+				AFF2AAA22414BA6A006D1F0E /* mapdata.txt */,
+				AF5DCBE5241AE43E009FCC85 /* DeliveryOptimizer.cpp */,
+				AF5DCBE2241AE246009FCC85 /* DeliveryPlanner.cpp */,
+				AF5DCBE7241C34F7009FCC85 /* brandontester.cpp */,
+				AFF2AAA3241581CD006D1F0E /* PointToPointRouter.cpp */,
+				AFF2AAA124146CC2006D1F0E /* provided.h */,
+				AF5DCBE4241AE2F2009FCC85 /* deliveries.txt */,
+				AF5DCBCD2418CA9D009FCC85 /* StreetMap.cpp */,
+				AFF2AA9E2414575F006D1F0E /* ExpandableHashMap.h */,
 			);
 			path = Project4;
 			sourceTree = "<group>";
@@ -119,7 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFF2AA982414574E006D1F0E /* main.cpp in Sources */,
+				AF5DCBE6241AE43E009FCC85 /* DeliveryOptimizer.cpp in Sources */,
+				AF5DCBE3241AE246009FCC85 /* DeliveryPlanner.cpp in Sources */,
+				AF5DCBE8241C34F7009FCC85 /* brandontester.cpp in Sources */,
+				AFF2AAA4241581CD006D1F0E /* PointToPointRouter.cpp in Sources */,
+				AF5DCBCE2418CA9D009FCC85 /* StreetMap.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
